@@ -38,7 +38,7 @@
           &kp LEFT_SHIFT  &kp Z     &kp X     &kp C     &kp V         &kp B     &trans     &trans    &kp N     &kp M     &kp COMMA &kp DOT   &kp FSLH  &kp SQT
                                     &kp LALT  &kp LCTRL &kp LEFT_META &mo RAISE                      &kp RET   &kp SPACE &mo LOWER &kp DELETE    
         >;
-        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
       };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
