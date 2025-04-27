@@ -50,9 +50,9 @@
                           &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                         &kp CARET      &kp AMPS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
           &kp ESC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp MINUS      &kp EQUAL  &kp GRAVE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
           &kp LEFT_SHIFT  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans        &trans  &kp UNDER      &kp PLUS   &kp TILDE     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH
-                                        &trans        &trans        &trans        &trans                              &RIGHT_ALT     &trans     &trans        &mo ADJUST
+                                        &trans        &trans        &trans        &trans                              &trans         &trans     &trans        &mo ADJUST
         >;
-        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
       };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
@@ -60,12 +60,12 @@
       Function {
         label= "LOWER";
         bindings = <
-                    &kp F2  &kp F3      &kp F4   &kp F5   &kp F6                         &trans    &trans    &trans    &trans    &trans     
-          &kp F1    &kp F8  &kp F9      &kp F10  &kp F11  &kp F12                        &trans    &trans    &trans    &trans    &trans   &trans  
-          &kp F7    &trans  &trans      &trans   &trans   &trans    &trans     &trans    &trans    &trans    &trans    &trans    &trans   &trans
-                            &mo ADJUST  &trans   &trans   &trans                         &trans    &trans    &trans    &trans  
+                    &kp F2  &kp F3      &kp F4   &kp F5   &kp F6                         &trans    &trans         &UP_ARROW       &trans    &trans     
+          &kp F1    &kp F8  &kp F9      &kp F10  &kp F11  &kp F12                        &trans    &LEFT_ARROW    &DOWN_ARROW     &RIGHT_ARROW    &trans   &trans  
+          &kp F7    &trans  &trans      &trans   &trans   &trans    &trans     &trans    &trans    &trans         &trans          &trans    &trans   &trans
+                            &mo ADJUST  &trans   &trans   &trans                         &trans    &trans         &trans          &trans  
         >;
-        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+        sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
       };
 
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
