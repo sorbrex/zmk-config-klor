@@ -31,7 +31,7 @@
 
       Alphabet {
         label= "BASE";
-        display-name="Base"
+        display-name="Base";
         bindings = <
                           &kp Q     &kp W     &kp E     &kp R         &kp T                          &kp Y     &kp U     &kp I     &kp O     &kp P
           &kp TAB         &kp A     &kp S     &kp D     &kp F         &kp G                          &kp H     &kp J     &kp K     &kp L     &kp SEMI  &kp BSPC
@@ -45,7 +45,7 @@
 
       NumberSymbol {
         label= "RAISE";
-        display-name="Num-Sym"
+        display-name="Num-Sym";
         bindings = <
                           &kp EXCL      &kp AT        &kp HASH      &kp DOLLAR    &kp PERCENT                         &kp CARET      &kp AMPS   &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
           &kp ESC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                        &kp MINUS      &kp EQUAL  &kp GRAVE     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp PIPE
