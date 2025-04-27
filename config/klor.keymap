@@ -60,9 +60,9 @@
       Function {
         label= "LOWER";
         bindings = <
-                    &kp F2  &kp F3      &kp F4   &kp F5   &kp F6                         &trans    &trans         &UP_ARROW       &trans    &trans     
-          &kp F1    &kp F8  &kp F9      &kp F10  &kp F11  &kp F12                        &trans    &LEFT_ARROW    &DOWN_ARROW     &RIGHT_ARROW    &trans   &trans  
-          &kp F7    &trans  &trans      &trans   &trans   &trans    &trans     &trans    &trans    &trans         &trans          &trans    &trans   &trans
+                    &kp F2  &kp F3      &kp F4   &kp F5   &kp F6                         &trans    &trans         &kp UP_ARROW    &trans          &trans     
+          &kp F1    &kp F8  &kp F9      &kp F10  &kp F11  &kp F12                        &trans    &kp LEFT_ARROW &kp DOWN_ARROW  &kp RIGHT_ARROW &trans   &trans  
+          &kp F7    &trans  &trans      &trans   &trans   &trans    &trans     &trans    &trans    &trans         &trans          &trans          &trans   &trans
                             &mo ADJUST  &trans   &trans   &trans                         &trans    &trans         &trans          &trans  
         >;
         sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
